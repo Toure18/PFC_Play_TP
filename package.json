@@ -1,0 +1,21 @@
+{
+  "name": "pfc_play_tp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --watch"
+  },
+  "author": "Madjoula",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "passport-jwt": "^4.0.1",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "socketio-jwt-auth": "^0.2.1"
+  }
+}
